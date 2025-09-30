@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 def landing_page(request):
 
-    return HttpResponse(content="<h1>Jai ho</h1>")
+    return render(request, 'landing_page.html')
 
 
 
